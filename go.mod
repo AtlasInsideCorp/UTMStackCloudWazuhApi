@@ -1,3 +1,3 @@
-module github.com/mrtc0/wazuh
+module github.com/AtlasInsideCorp/UTMStackCloudWazuhApi
 
-go 1.12
+go 1.17
