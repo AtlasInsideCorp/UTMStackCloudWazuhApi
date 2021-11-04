@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mrtc0/wazuh"
+	"github.com/AtlasInsideCorp/UTMStackCloudWazuhApi"
 )
 
 func main() {

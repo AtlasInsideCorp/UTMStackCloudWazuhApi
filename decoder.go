@@ -4,7 +4,7 @@ import (
 	"context"
 	"path"
 
-	. "github.com/mrtc0/wazuh/define/decoder"
+	. "github.com/AtlasInsideCorp/UTMStackCloudWazuhApi/define/decoder"
 )
 
 func GetAllDecodersRequest(ctx context.Context, client *Client, path string) (*GetDecodersResponse, error) {

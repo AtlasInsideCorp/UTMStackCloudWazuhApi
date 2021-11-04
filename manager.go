@@ -3,7 +3,7 @@ package wazuh
 import (
 	"context"
 
-	. "github.com/mrtc0/wazuh/define/manager"
+	. "github.com/AtlasInsideCorp/UTMStackCloudWazuhApi/define/manager"
 )
 
 func GetManagerConfigurationRequest(ctx context.Context, client *Client, path string) (*GetManagerConfigurationResponse, error) {

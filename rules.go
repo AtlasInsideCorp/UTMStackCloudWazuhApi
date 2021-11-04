@@ -4,7 +4,7 @@ import (
 	"context"
 	"path"
 
-	. "github.com/mrtc0/wazuh/define"
+	. "github.com/AtlasInsideCorp/UTMStackCloudWazuhApi/define"
 )
 
 func GetRulesRequest(ctx context.Context, client *Client, path string) (*GetRulesResponse, error) {

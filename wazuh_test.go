@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mrtc0/wazuh"
+	"github.com/AtlasInsideCorp/UTMStackCloudWazuhApi"
 )
 
 var (

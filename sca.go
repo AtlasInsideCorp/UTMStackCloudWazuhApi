@@ -4,7 +4,7 @@ import (
 	"context"
 	"path"
 
-	. "github.com/mrtc0/wazuh/define/sca"
+	. "github.com/AtlasInsideCorp/UTMStackCloudWazuhApi/define/sca"
 )
 
 // Security Configuration Assessment

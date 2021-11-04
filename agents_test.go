@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/mrtc0/wazuh"
+	"github.com/AtlasInsideCorp/UTMStackCloudWazuhApi"
 )
 
 func TestGetAllAgents(t *testing.T) {

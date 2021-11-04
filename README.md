@@ -11,7 +11,7 @@ https://documentation.wazuh.com/current/user-manual/api/reference.html
 ## Install
 
 ```powershell
-$ go get -u github.com/mrtc0/wazuh
+$ go get -u github.com/AtlasInsideCorp/UTMStackCloudWazuhApi
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mrtc0/wazuh"
+	"github.com/AtlasInsideCorp/UTMStackCloudWazuhApi"
 )
 
 func main() {

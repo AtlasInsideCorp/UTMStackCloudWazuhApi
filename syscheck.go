@@ -4,7 +4,7 @@ import (
 	"context"
 	"path"
 
-	. "github.com/mrtc0/wazuh/define/syscheck"
+	. "github.com/AtlasInsideCorp/UTMStackCloudWazuhApi/define/syscheck"
 )
 
 // Get syscheck files

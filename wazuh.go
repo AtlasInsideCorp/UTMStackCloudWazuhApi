@@ -25,6 +25,7 @@ type ClientOptions struct {
 	keyPem          []byte
 	BasicUser       string
 	BasicPass       string
+	Raw             string
 }
 
 func New(endpoint string, options ...ClientOption) (*Client, error) {
@@ -60,6 +61,7 @@ func WithBasicAuth(username, password string) ClientOption {
 	return func(options *ClientOptions) {
 		options.BasicUser = username
 		options.BasicPass = password
+		options.Raw = "true"
 	}
 }
 

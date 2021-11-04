@@ -1,20 +1,15 @@
 package main
 
 import (
-	"flag"
 	"fmt"
+	"github.com/AtlasInsideCorp/UTMStackCloudWazuhApi"
 	"os"
-
-	"github.com/mrtc0/wazuh"
 )
 
 func main() {
-	flag.Parse()
-	args := flag.Args()
-
-	endpoint := args[0]
-	user := args[1]
-	pass := args[2]
+	endpoint := "https://localhost:55000/"
+	user := "wazuh"
+	pass := "wazuh"
 
 	client, err := wazuh.New(endpoint, wazuh.WithBasicAuth(user, pass))
 
